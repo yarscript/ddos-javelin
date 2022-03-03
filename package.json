@@ -1,0 +1,25 @@
+{
+  "name": "ddos-javelin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "bin": {
+    "javelin": "./bin/javelin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarscript/ddos-javelin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "header-generator": "^1.1.3",
+    "process": "^0.11.10",
+    "request": "^2.88.0",
+    "shelljs": "^0.8.5"
+  }
+}
